@@ -7,8 +7,8 @@ interface buttonProps {
 }
 
 export const Button: React.FC<buttonProps> = ({ title, variant, className = "" }) => {
-  const primary = "bg-red-900 px-6 py-2 text-white rounded-full hover:bg-red-800 transition-all";
-  const outline = "border border-red-900 px-6 py-2 text-red-900 rounded-full hover:bg-red-50 transition-all";
+  const primary = "bg-blue-900 px-6 py-2 text-white rounded-full hover:bg-blue-800 transition-all";
+  const outline = "border border-blue-900 px-6 py-2 text-blue-900 rounded-full hover:bg-blue-50 transition-all";
 
   return (
     <button 
